@@ -2,5 +2,35 @@
 /* CSS Document */
 
 body {
-	background-color: blueviolet;
+	background-color: #Fdefb2;
+	font-family: oswald, sans-serif;
+	font-style: normal;
+	Margin-left: 10;
+}
+	header {
+  padding: 20px;
+  text-align: center;
+  background: #e4eef0;
+  font-size: 30px;
+		
+	}
+h1 {color: #075056}
+	
+li {list-style-type: none;
+	Display: inline;
+	margin-right:15px;
+}
+h2,h3 { color:#075056;
+	font-family: oswald;
+}
+	p{inline-height: 1.5em;
+	font-family: oswald, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+}
+.datetime {
+	Color: #B6523E;
+	font-size:0.5em
+}
+	
 }
