@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+header {
+  padding: 20px;
+  text-align: center;
+  background: #e4eef0;
+  font-size: 4em;	
+	}
+.title{
+	align-content: center;
+	font-family: "Mixta", serif; 
+  	font-size: 3rem;              
+  	font-weight: 600;
+  	letter-spacing: 0.5px;        
+	margin-bottom: 0.5rem;
+
+}
+body{
+background: #F4F1DE;
+font-family: "mixta-didone", serif;
+font-weight: 400;
+font-style: normal;
+line-height: 1.7em;
+}
+.flexcontainer{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	grid-template:center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+.flexsect1{
+border: 2px dashed #E07a5f;
+padding: 1em;
+background-clip: content-box;
+	
+}
+
+h1 {
+font-family: "mixta-didone-alt", serif;
+font-weight: 900;
+font-style:normal;
+color:#E07a5f;
+Margin-top: 2em;
+margin-bottom: 2em;
+align-content: center;
+}
+h2 {
+font-family: "mixta-didone", serif;
+font-weight: 700;
+font-style: normal;
+color: #2a6068;
+font-size: 1.5em;
+}
+h3 {
+font-family: "mixta-didone-alt", serif;
+font-weight: 500;
+font-style: normal;
+color: #2a6068;
+}
+h4{
+	
+}
