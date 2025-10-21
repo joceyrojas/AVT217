@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+  body {
+    text-align: center;
+    background:url("../img/AdobeStock_637763013.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  	font-family: "Metal Mania", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 6em;
+	color: chocolate;
+
+  }
+
+#container {
+	margin-top: 40vh;
+		
+
+  }
+
+  p {
+    text-transform:uppercase;
+  }
+ 
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+    body {
+		background-image: none;
+ 
+    }
+	  
+	#container {
+ 
+    }
+	   
+    p {
+
+    }
+	  
+	#cursive {
+  	}
+	  
+    .mobile-only {
+	 background:url("../img/"../img/ghost-outline-cartoon-ghost-with-black-eyes-kW8nmsga.jpg"") no-repeat center center fixed;
+		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+    	-o-background-size: cover;
+		background-size: cover;
+ 	 font-family: "Henny Penny", system-ui;
+ 	 font-weight: 400;
+ 	 font-style: normal;
+	 color:darkviolet;
+	 display: block; 
+   
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+		display: none;
+  
+    }
+
+} /* don't forget to close the styles for mobile/
